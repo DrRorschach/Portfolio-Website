@@ -31,7 +31,7 @@ app.post("/api", function(req, res){
     console.log(username)
     const password = req.body.password
     console.log(password)
-    //Safe ageinst SQL-Injections because we specify what kind of values to accept
+    //Safe against SQL injections because we specify what kind of values to accept.
     connection.query("INSERT INTO  sql_injection (user, password) VALUES (?,?)",
     [username,password],
     (err, result) =>{
@@ -42,7 +42,7 @@ app.post("/api", function(req, res){
 app.post("/login", function(req, res){
     const username1 = req.body.user1
     const password1 = req.body.password1
-        //Unsafe query attackable for example with "xy' OR 1=1#" 
+        //Unsafe query vulnerable, for example, to "xy' OR 1=1#" attack. 
         connection.query("SELECT * FROM sql_injection WHERE user = '" + req.body.user1 + "' AND password = '" + req.body.password1 + "' ", 
         [username1, password1],
     (err, result) =>{
