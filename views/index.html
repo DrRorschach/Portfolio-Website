@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/Style.css">
+
+  
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/carousel/">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script>
+      $(function(){ 
+        var navMain = $(".navbar-collapse");
+   
+        navMain.on("click", "a", null, function () {
+            navMain.collapse('hide');
+        });
+    });
+    </script>
+  
+
+  </head>
+<body>
+  <script>$(function(){var navMain = $(".navbar-collapse");navMain.on("click", "a", null, function () {navMain.collapse('hide');});});</script>
+  <nav class="nav container-fluid navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #222222">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="**********">***********</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item d-flex flex-row-reverse">
+            <a class="nav-link active" href="#id_programming">Programming</a>
+          </li>
+          <li class="nav-item d-flex flex-row-reverse">
+            <a class="nav-link active" href="#id_projects">Meine Projekte</a>
+          </li>
+          <li class="nav-item d-flex flex-row-reverse ">
+            <a class="nav-link active" href="#id_aboutme">Über Mich</a>
+          </li>
+          <li class="nav-item d-flex flex-row-reverse">
+            <a class="nav-link active" href="http://localhost:3000/impressum.html">Impressum</a>
+          </li>
+          <li class="nav-item d-flex flex-row-reverse ">
+            <a class="nav-link active" href="mailto:***@*****.***">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class = "container-fluid block"> 
+    <div class = "container-fluid">
+          <br><br>
+          <img class="img-fluid rounded-circle mx-auto d-block" src="/me.jpg" alt="Responsive image" width="200px" height="300px">
+          <div class="titletext">
+          <p>***********<br></p><br>
+          <p class = "text-justify ">Cyber Security Junior - Ethical Hacker </p>
+          </div>
+      </div>
+  </section>
+<!-- Programming Projects Penetration Testing -->
+<section id= "id_info" class ="container-fluid block">
+  <br><br>
+  <div id="id_programming"class ="d-flex justify-content-between  flex-container">
+      <div class="center">
+        <img class="rounded-circle mx-auto d-block margin_bottom"src="/Programming.jpg" alt="photo" width="200" height="200"> 
+        <h2 class="margin_bottom">Programming<br></h2>
+        <p class = "text_justify margin_left margin_right">
+          Als Teil meines Studiums habe ich mich mit verschiedenen Programmiersprachen auseinandergesetzt, darunter Java, C, Haskell und Assembler. 
+          Die meisten Erfahrungen konnte ich mit Java sammeln. Zusätzlich baue ich momentan meine Kenntnisse in Python, JavaScript und HTML mit 
+          eigenständigen Projekten weiter aus. In naher Zukunft plane ich auch, Rust in meine Fähigkeiten aufzunehmen.
+      </div>
+      <br><br>
+      <div id="id_projects" class="center">
+        <img class="rounded-circle rounded-circle-clip mx-auto d-block margin_bottom"src="/MyProjects.jpg" alt="photo" width="200" height="200"> 
+        <h2 class="margin_bottom">Meine Projekte<br></h2>
+        <p class = "text_justify margin_left margin_right">
+          Ich arbeite derzeit an drei Projekten. Das erste Projekt ist meine persönliche Portfolio-Webseite, die im Bootstrap-Framework erstellt wurde. 
+          Das zweite Projekt ist eine Login-Webseite, die ich mit Node.js im Express-Framework erstellt habe. Dabei habe ich eine MySQL-Datenbank so 
+          konfiguriert, dass die Accounterstellung gegen SQL-Injection-Angriffe geschützt ist. Hingegen habe ich das Loginverfahren bewusst angreifbar 
+          für SQL-Injections konfiguriert, um meine Kenntnisse in der Anwendung von Sicherheitsmaßnahmen unter Beweis zu stellen. Sie können den Code für die Projekte unter meinem GitHub-Profil einsehen. Zukünftig sind noch weitere Projekte geplant, wie 
+          z.B. meinen Dell Wyse 5070 Thin Client als kleinen Homelab-Server zu nutzen und dadurch mein Verständnis von Server, Client und Netzwerkarchitektur 
+          zu verbessern.
+        </p>
+        <a class="margin_bottom git_button btn btn-secondary margin_left margin_right" href="https://github.com/DrRorschach">GitHub-Profil</a>
+        <a class="margin_bottom git_button btn btn-secondary margin_left margin_right" href="http://localhost:3000/sql.html">Angreifbare Login-Seite</a>
+      </div>
+      <br><br>
+      <div id="id_pentesting" class="center"> 
+        <img class="rounded-circle rounded-circle-clip mx-auto d-block margin_bottom"src="/Pentesting.jpg" alt="photo" width="200" height="200"> 
+        <h2 class="margin_bottom">Erfahrungen im Pentesting<br></h2>            
+        <p class = "text_justify margin_left margin_right">
+          Derzeit bemühe ich mich, meine Kenntnisse im Bereich Ethical Hacking bzw. Pentesting durch spezielle Kurse und frei verfügbare Lernmaterialien und 
+          Labs wie HackTheBox.com, HackerOnes Hacker101, CISOs Networking Essentials und weiteren Kursen zu erweitern. Gleichzeitig versuche ich mich stets 
+          auf dem Laufenden über aktuelle Entwicklungen und Neuigkeiten in der Welt der Cybersecurity zu halten. Ich habe außerdem angefangen, mich mit gängigen 
+          Tools und Betriebssystemen wie Kali Linux, Burp Suite, Wireshark und Metasploit auseinanderzusetzen, um meine Kenntnisse im Bereich der Cybersecurity 
+          auszubauen. 
+      </div>    
+  </div>  
+</section>
+<!--Über Mich-->
+<section id="id_aboutme" class="container-fluid block">
+  <div class ="inner-div d-flex outer-div justifiy-content-between flex-container">
+    <div class="center mx-auto d-block margin_bottom justifiy-content flex-container">
+      <img class="img-fluid margin_left margin_right"src="/AboutMe2.jpg" alt="photo" style="max-width: 265px; max-height: 250px;">
+    </div>
+    <div class="center">
+      <h2>Über Mich</h2><br>
+      <p class = "text_justify margin_left margin_right">
+        Mein Name ist ********** und ich bin ein begeisterter und leidenschaftlicher Anfänger
+        im Feld des Pentestings. Ich studiere Wirtschaftsinformatik und plane, mein Studium Ende Juni
+        abgeschlossen zu haben. Ich freue mich darauf, meine Karriere im Bereich der Informationssicherheit
+        zu beginnen. Mein Interesse am Pentesting wurde gegen Ende meines Studiums geweckt, nachdem
+        ich das Modul "Management der Informationssicherheit" besucht hatte. </br>
+
+        Während eines Vortrags wurde eine Aufnahme eines Red-Team-Einsatzes gezeigt.
+        Dabei wurde eine in-house programmierte Software des IT-Teams des Zielunternehmens genutzt, die dazu diente, eine bestimmte Tür zu öffnen.
+        Die Software wurde so umfunktioniert, dass die Geländeschranken nachts geöffnet werden konnten.
+        Dadurch konnten sich das Redteam Zugang vom und zum Gelände verschaffen.</br>
+        Ich fand diesen Fall äußerst faszinierend. Die kreative Verwendung von Werkzeugen,
+        die eigentlich nicht dafür vorgesehen waren, hat mich besonders beeindruckt.
+        Seit diesem Moment habe ich mich entschieden, meine Karriere im Bereich des Pentestings fortzusetzen,
+        um meine Neugierde in diesem Bereich weiter zu erforschen.
+        Seitdem baue ich stetig mein Wissen in diesem Bereich aus. Meine aktuellen Erfahrungen im Pentesting
+        sind im Abschnitt "Erfahrungen im Pentesting" zu sehen. Obwohl ich neu in diesem Bereich bin, bin ich
+        voller Neugierde und Wissbegierde und möchte mein Wissen vertiefen. </br>
+
+        Abseits vom Studium bin ich leidenschaftlicher Hobbykoch, versuche mich am Joggen und spiele gerne
+        Rogue-likes, (Echtzeit-)Strategie-Spiele und Wirtschaftssimulationen.</br>
+
+        Ich glaube, dass meine Leidenschaft für Informationssicherheit, gepaart mit meiner starken Arbeitsmoral und meinem Lerneifer,
+        mich zu einem idealen Kandidaten für eine Karriere im Pentesting macht.
+        Allerdings bin ich mir bewusst, dass mein Wissen momentan noch oberflächlich ist und ich noch Fachwissen
+        benötige, um mich weiterzuentwickeln.
+        Ich plane, dieses Wissen durch gezieltes Lernen zu erlangen und anschließend in eigenen Projekten anzuwenden.        
+      </p>
+    </div>    
+  </div>
+</section>
+
+<footer class="center blog-footer footer text-white-50">
+  <p><br><a href="#">Back to top </a><br></p>
+  &copy; 2023<script>new Date().getFullYear()>2019&&document.write("-"+new Date().getFullYear());</script>, egoeren.de - Emrecan Gören
+</footer>
+</body>
+</html>
+

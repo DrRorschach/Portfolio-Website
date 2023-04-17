@@ -1,0 +1,126 @@
+body, html{
+    background-image: url("/d_hell.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #222222;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: "DejaVu Sans Mono", monospace;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #149414;
+    padding-top: 30px;
+    max-width:900px;
+  }
+
+/**
+*{
+  outline: 1px solid red;
+}
+*/
+.titletext{
+    font-family: "DejaVu Sans Mono", monospace;
+    position: relative;
+    text-align: center;
+    width: auto;
+    font-size: 30px;
+    letter-spacing: 4px;
+    color: #149414;
+    padding-top: 20px;
+    white-space: normal !important;
+}
+
+.nav{
+  max-width:900px;
+}
+
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-fluid{
+  max-height: 400px;
+}
+
+
+/**Section 1*/
+.block{
+  background-color: #222222;
+  padding-bottom: 30px;
+  opacity: 0.96;
+}
+
+
+
+/**Section 2 "Prgamming" - "Meine Projekte" - "Erfahrungen"*/
+.git_button{ 
+    outline: #4E6C50;
+    text-align: center;
+    text-decoration: none;
+    color: #e9e8e8;
+    background-color: #4E6C50;
+}
+
+.rounded-circle-clip {
+  clip-path: circle(50% at center);
+  object-fit: cover;
+  object-position: center;
+}
+
+.margin_top{
+  margin-top: 20px;
+}
+.margin_bottom{
+  margin-bottom: 20px;
+}
+
+.margin_left{
+  margin-left: 20px;
+}
+
+.margin_right{
+  margin-right: 20px;
+}
+
+.text_justify{
+  hyphens: auto;
+  text-align: justify;
+}
+.center{
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+/**Section 3 "Über Mich"*/
+.block3{
+    padding-left: 80px;
+    padding-right: 80px;
+}  
+
+.inner-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0 auto;
+}
+.img{
+  object-fit: cover;
+}
+
+/** Footer Block*/
+.footer{
+  background-color: #222222;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  max-width:900px;
+  opacity: 0.96;
+
+}
+  
+
+ 
